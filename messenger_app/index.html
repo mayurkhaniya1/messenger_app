@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Messenger</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="profile">
+                <img src="https://via.placeholder.com/50" alt="Profile" class="profile-pic">
+                <h2>John Doe</h2>
+            </div>
+            <div class="search">
+                <input type="text" placeholder="Search chats..." id="search-input">
+            </div>
+            <div class="chats">
+                <!-- Dynamic chat list -->
+            </div>
+        </div>
+
+        <!-- Chat Window -->
+        <div class="chat-window">
+            <div class="chat-header">
+                <img src="https://via.placeholder.com/50" alt="Chat Profile" class="chat-profile-pic">
+                <h2 id="chat-name">Select a chat</h2>
+            </div>
+            <div class="messages">
+                <!-- Dynamic messages -->
+            </div>
+            <div class="chat-input">
+                <input type="text" placeholder="Type a message..." id="message-input">
+                <button id="send-button">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
